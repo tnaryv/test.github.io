@@ -1,0 +1,41 @@
+{
+    "bento":[
+      {
+        "type":"salmon",
+        "price":7.79,
+        "ingredients":[
+          "rice",
+          "ume",
+          "lemon",
+          "gobo",
+          "ube",
+          "edamame"
+        ]
+      },
+      {
+        "type":"soft shell crab",
+        "price": 9.99,
+        "ingredients":[
+          "rice",
+          "ume",
+          "crab",
+          "furikake",
+          "ube",
+          "edamame"
+        ]
+      }
+    ],
+    "friedRice":[
+        {
+          "type":"vegetable fried rice",
+          "price":8.79,
+          "ingredients":[
+            "rice",
+            "egg",
+            "carrot",
+            "cucumber",
+            "edamame"
+          ]
+        }
+      ]
+  }
