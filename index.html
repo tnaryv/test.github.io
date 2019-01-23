@@ -11,7 +11,8 @@
                 document.getElementById("display").innerHTML = mydata.bento[1].ingredients[3]; //this is how you call things
             }
         };
-
+        xmlhttp.open("GET", "sample.json", true);
+        xmlhttp.send(); //send this file to the server
         xmlhttp.onreadystatechange = function () { //onreadystatechange = i will do this function when a certain condition is met
             if (this.readyState == 4 && this.status == 200) { //"this" refers to the function we are calling; 4 = ready; 200 = ok
                 var mydata = JSON.parse(this.responseText); //the json file that we get
