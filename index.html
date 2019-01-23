@@ -13,14 +13,15 @@
         };
         xmlhttp.open("GET", "sample.json", true);
         xmlhttp.send(); //send this file to the server
-        xmlhttp.onreadystatechange = function () { //onreadystatechange = i will do this function when a certain condition is met
+        
+        /*xmlhttp.onreadystatechange = function () { //onreadystatechange = i will do this function when a certain condition is met
             if (this.readyState == 4 && this.status == 200) { //"this" refers to the function we are calling; 4 = ready; 200 = ok
                 var mydata = JSON.parse(this.responseText); //the json file that we get
                 document.getElementById("display2").innerHTML = mydata.friedRice[0].ingredients[2];
             }
         };
         xmlhttp.open("GET", "sample.json", true);
-        xmlhttp.send(); //send this file to the server
+        xmlhttp.send(); //send this file to the server*/
     </script>
     <h1 id="display"></h1>
     <h1 id="display2"></h1>
